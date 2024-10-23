@@ -1,0 +1,20 @@
+{
+  "name": "mernbackend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js, hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "eslint": "^9.13.0",
+    "express": "^4.21.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7"
+  }
+}
